@@ -1,0 +1,12 @@
+dist: xenial
+language: cpp
+
+os:
+  - linux
+
+compiler: 
+  - gcc
+  - clang
+
+script:
+  cmake . && make
